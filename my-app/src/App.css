@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.Title{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20%;
+  margin-top: 5rem;
+}
+
+.App-header {
+  background-color: #666565;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white; 
+  /* align-items: center; */
+}
+
+.App-header h2{
+  font-size: 30px;
+  margin-top: 50px;
+}
+.ContainerRestaurants{
+  display: grid;
+  grid-template-columns: repeat(2, 20% 70%);
+  margin-top: 20px;
+  margin-left: 10%;
+}
+.InfoCont{
+  background-color: #A5A5A5;
+}
+.ContCarousell{
+  margin-top: 5rem;
+}
